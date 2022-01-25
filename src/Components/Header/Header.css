@@ -1,0 +1,9 @@
+header {
+  position: fixed;
+  z-index: 7;
+  width: 100%;
+  top: 0;
+}
+.image-join {
+  display: flex;
+}
