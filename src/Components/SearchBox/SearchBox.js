@@ -5,7 +5,7 @@ import srcKnowledgeMakeTheWorldBetterPlace from '../../res/KnowledgeMakeTheWorld
 function SearchBox() {
    let firstName ='Slim';
 
-   let BoxInput= <input className='Box-Input' type="search" placeholder="Whrite your question !" />;
+   let BoxInput= <input className='Box-Input' type="search" placeholder="Write your question !" />;
    let BtnSearch= <button className='btn-Search'> Send it to {firstName} </button>;
    let BoxAnswer= <textarea name="message" value={"The answer of Slim."} readOnly={true} />;
     
